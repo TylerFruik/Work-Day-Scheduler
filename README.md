@@ -2,22 +2,24 @@
 
 ## Finished Product
 
-### [🔗Project Link]() 
-DESCRIPTION
+### [🔗Project Link](https://tylerfruik.github.io/Work-Day-Scheduler/) 
+This application presents an empty daily scheduler from the hours of 9AM to 5PM.
+Users can enter their goings on each hour and press the save button. The next time the page is loaded, previously stored information will be conserved and displayed.
+The current hour is highlighted in red, past hours in gray, future hours in green.
 
-This project was developed using the following skills: 
+This project was developed using the following skills: HTML, CSS Bootstrap, JS, Third-Party APIs 
 
 All code is neatly commented for clarity's sake.
 
-All code written manually by Tyler Fruik.
+All code refactored or written manually by Tyler Fruik.
 
 ### The following is an image of the final product:
-![Image URL](.assets/images/preview.png)
+![Image URL](./assets/images/preview.png)
 
 ## Assignment Information
 
 ### Mock-up
-IMAGE FOR THE MOCK-UP
+![Image URL](./assets/images/mockup.gif)
 
 ### User Story
 ```
@@ -42,4 +44,3 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-# Work-Day-Scheduler
