@@ -3,8 +3,8 @@
 // run until the browser has finished rendering all html elements.
 $(function () {
   // sets the current hour by calling the DayJS API
-  var currentHour = dayjs().hour() - 5;
-  console.log(currentHour);
+  var currentHour = dayjs().hour();
+  console.log("hour log: ", currentHour);
   // iterates over each hour and puts previously saved data in the .description element.
   // The i < 18 is because 5PM has the hour-17 id.
   for (var i = 9; i < 18; i++) {
